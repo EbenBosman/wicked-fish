@@ -1,0 +1,41 @@
+@import '../base/settings';
+
+// NOTE: the order of these styles DO matter
+
+// Will edit everything selected including everything between a range of dates
+.CalendarDay__selected_span {
+  background: #82e0aa; //background
+  color: white; //text
+  border: 1px solid lighten($primary-color-blue, 20%); //default styles include a border
+}
+
+// Will edit selected date or the endpoints of a range of dates
+.CalendarDay__selected {
+  background: $primary-color-blue;
+  color: white;
+}
+
+// Will edit when hovered over. _span style also has this property
+.CalendarDay__selected:hover {
+  background: $primary-color-mustard;
+  color: white;
+}
+
+.DayPickerKeyboardShortcuts_buttonReset {
+  display: none;
+}
+
+.DateInput_input__focused {
+  border: none;
+}
+
+.DateInput_input {
+  height: calc(#{$l-size} - 2px);
+  border-radius: calc(#{$l-size} * 0.1) !important;
+  font-size: small;
+  padding: 7px 14px 5px;
+}
+
+.DateInput_input:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+@import '../base/settings';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.align-vertical-custom {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.form-login-wrapper {
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.form-login {
+    min-width: 450px;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.form-login .checkbox {
+    font-weight: 400;
+}

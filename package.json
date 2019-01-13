@@ -1,0 +1,44 @@
+{
+	"name": "wicked.fish",
+	"version": "0.0.1",
+	"main": "index.js",
+	"author": "Eben Bosman",
+	"license": "MIT",
+	"scripts": {
+		"local-build": "webpack",
+		"local-server": "webpack-dev-server"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"moment": "^2.23.0",
+		"normalize.css": "7.0.0",
+		"react": "^16.5.2",
+		"react-dates": "^18.3.1",
+		"react-dom": "^16.5.2",
+		"react-hot-loader": "^4.3.11",
+		"react-konva": "^16.6.31",
+		"react-redux": "^5.0.7",
+		"react-router-dom": "^4.3.1",
+		"react-scripts": "1.1.5",
+		"redux": "^4.0.0",
+		"redux-persist": "^5.10.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.1.0",
+		"@babel/plugin-proposal-class-properties": "^7.1.0",
+		"@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+		"@babel/polyfill": "^7.0.0",
+		"@babel/preset-env": "^7.1.0",
+		"@babel/preset-react": "^7.0.0",
+		"@types/react-redux": "^6.0.7",
+		"babel-loader": "^8.0.2",
+		"css-loader": "^2.1.0",
+		"live-server": "^1.2.0",
+		"node-sass": "^4.10.0",
+		"sass-loader": "6.0.6",
+		"style-loader": "0.18.2",
+		"webpack": "3.1.0",
+		"webpack-cli": "^3.1.1",
+		"webpack-dev-server": "2.5.1"
+	}
+}

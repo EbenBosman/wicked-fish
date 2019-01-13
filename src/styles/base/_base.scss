@@ -1,0 +1,57 @@
+@import './settings';
+
+html {
+  font-size: 62.5%;
+  position: relative;
+  height: 100%;
+}
+
+// Colors
+$bg-color: #e7f0fe;
+$dot-color: darken($bg-color, 10%);
+
+// Dimensions
+$dot-size: 2px;
+$dot-space: 22px;
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  margin-top: 3em;
+  margin-bottom: 4em;
+  /*background-color: $body-background-color;*/
+  background-color: $bg-color;
+	background:
+    linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+  background-size: $dot-space $dot-space;
+}
+
+.watch-this {
+  color: #019CDF;
+  font-weight: bolder;
+  font-size: $l-size;
+}
+
+.hide {
+  display: none;
+}
+
+.box-shadow {
+  -moz-box-shadow:    3px 3px 7px $box-shadow-color;
+  -webkit-box-shadow: 3px 3px 7px $box-shadow-color;
+  box-shadow:         3px 3px 7px $box-shadow-color;
+}
+
+.text-input-custom {
+    height: calc(#{$l-size} - 2px);
+    border-radius: calc(#{$l-size} * 0.1);
+    font-size: small;
+}
+
+.select-options-custom {
+    height: calc(#{$l-size} - 2px);
+    border-radius: calc(#{$l-size} * 0.1);
+    font-size: small;
+}
