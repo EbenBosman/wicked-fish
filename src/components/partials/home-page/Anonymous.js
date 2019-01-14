@@ -125,7 +125,7 @@ export class AnonymousPartialPage extends React.Component {
 						</div>
 						<div className="row">
 							<div className="col-sm-12 d-flex justify-content-center">
-								<p className="watch-this">Wicked Things Coming</p>
+								<p className="watch-this">Wicked Things Inbound</p>
 							</div>
 						</div>
 					</div>
